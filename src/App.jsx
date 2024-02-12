@@ -37,7 +37,7 @@ function App() {
       
         <ul>
           {data && data.map((cuenta) => (
-            <li key={cuenta.id_cuenta}>{cuenta.saldo}</li>
+            <li key={cuenta.id_cuenta}>${cuenta.saldo}</li>
           ))}
         </ul>
 
